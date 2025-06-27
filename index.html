@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pixel Studio - Kreativní digitální agentura specializující se na webdesign, branding a digitální marketing">
+    <meta name="keywords" content="digitální agentura, webdesign, branding, marketing, kreativní studio">
+    <meta name="author" content="Pixel Studio">
+    <title>Pixel Studio | Kreativní digitální agentura</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" role="banner">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="Hlavní navigace">
+                <div class="logo">
+                    <a href="#home" aria-label="Pixel Studio - Domů">
+                        <span class="logo-text">Pixel Studio</span>
+                    </a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Otevřít menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Domů</a></li>
+                    <li><a href="#about" class="nav-link">O nás</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#team" class="nav-link">Tým</a></li>
+                    <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="home" class="hero" aria-label="Úvodní sekce">
+            <div class="parallax-bg"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="animated-text">Vytváříme</span>
+                    <span class="animated-text">digitální</span>
+                    <span class="animated-text">zážitky</span>
+                </h1>
+                <p class="hero-subtitle">Jsme kreativní agentura specializující se na inovativní webdesign a digitální řešení</p>
+                <a href="#portfolio" class="cta-button" aria-label="Zobrazit naše projekty">Naše projekty</a>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span></span>
+            </div>
+        </section>
+
+        <section id="about" class="about" aria-label="O nás">
+            <div class="container">
+                <h2 class="section-title">O nás</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Jsme Pixel Studio</h3>
+                        <p>Kreativní digitální agentura s vášní pro inovativní design a moderní technologie. Specializujeme se na vytváření jedinečných digitálních zážitků, které zanechají dojem.</p>
+                        <p>Náš tým kombinuje kreativitu s technickou excelencí, abychom přinesli vaší značce život v digitálním světě.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Dokončených projektů</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Spokojených klientů</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Let zkušeností</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio" aria-label="Portfolio">
+            <div class="container">
+                <h2 class="section-title">Naše práce</h2>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">Vše</button>
+                    <button class="filter-btn" data-filter="web">Web Design</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                </div>
+                <div class="portfolio-grid">
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/1a1a2e/eee?text=E-commerce+Platform" alt="E-commerce Platform">
+                            <div class="portfolio-overlay">
+                                <h3>E-commerce Platform</h3>
+                                <p>Moderní online obchod s pokročilými funkcemi</p>
+                                <button class="view-project" aria-label="Zobrazit projekt E-commerce Platform">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/16213e/eee?text=Brand+Identity" alt="Brand Identity">
+                            <div class="portfolio-overlay">
+                                <h3>Brand Identity</h3>
+                                <p>Kompletní vizuální identita pro startup</p>
+                                <button class="view-project" aria-label="Zobrazit projekt Brand Identity">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/0f3460/eee?text=SaaS+Dashboard" alt="SaaS Dashboard">
+                            <div class="portfolio-overlay">
+                                <h3>SaaS Dashboard</h3>
+                                <p>Intuitivní dashboard pro SaaS aplikaci</p>
+                                <button class="view-project" aria-label="Zobrazit projekt SaaS Dashboard">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="marketing">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/533483/eee?text=Digital+Campaign" alt="Digital Campaign">
+                            <div class="portfolio-overlay">
+                                <h3>Digital Campaign</h3>
+                                <p>Kreativní digitální kampaň s vysokým dosahem</p>
+                                <button class="view-project" aria-label="Zobrazit projekt Digital Campaign">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="branding">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/2d2d2d/eee?text=Logo+Design" alt="Logo Design">
+                            <div class="portfolio-overlay">
+                                <h3>Logo Design</h3>
+                                <p>Minimalistické logo pro technologickou firmu</p>
+                                <button class="view-project" aria-label="Zobrazit projekt Logo Design">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <img src="https://via.placeholder.com/400x300/3d3d3d/eee?text=Portfolio+Website" alt="Portfolio Website">
+                            <div class="portfolio-overlay">
+                                <h3>Portfolio Website</h3>
+                                <p>Osobní portfolio pro kreativního profesionála</p>
+                                <button class="view-project" aria-label="Zobrazit projekt Portfolio Website">Zobrazit projekt</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team" aria-label="Náš tým">
+            <div class="container">
+                <h2 class="section-title">Náš tým</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="https://via.placeholder.com/300x300/4a4a4a/eee?text=Jan+Novák" alt="Jan Novák">
+                            <div class="member-overlay">
+                                <div class="social-links">
+                                    <a href="#" aria-label="LinkedIn Jan Novák">LinkedIn</a>
+                                    <a href="#" aria-label="Twitter Jan Novák">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Jan Novák</h3>
+                        <p>Creative Director</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="https://via.placeholder.com/300x300/5a5a5a/eee?text=Marie+Svobodová" alt="Marie Svobodová">
+                            <div class="member-overlay">
+                                <div class="social-links">
+                                    <a href="#" aria-label="LinkedIn Marie Svobodová">LinkedIn</a>
+                                    <a href="#" aria-label="Twitter Marie Svobodová">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Marie Svobodová</h3>
+                        <p>Lead Designer</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="https://via.placeholder.com/300x300/6a6a6a/eee?text=Tomáš+Dvořák" alt="Tomáš Dvořák">
+                            <div class="member-overlay">
+                                <div class="social-links">
+                                    <a href="#" aria-label="LinkedIn Tomáš Dvořák">LinkedIn</a>
+                                    <a href="#" aria-label="Twitter Tomáš Dvořák">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Tomáš Dvořák</h3>
+                        <p>Senior Developer</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-image">
+                            <img src="https://via.placeholder.com/300x300/7a7a7a/eee?text=Petra+Krejčová" alt="Petra Krejčová">
+                            <div class="member-overlay">
+                                <div class="social-links">
+                                    <a href="#" aria-label="LinkedIn Petra Krejčová">LinkedIn</a>
+                                    <a href="#" aria-label="Twitter Petra Krejčová">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Petra Krejčová</h3>
+                        <p>Marketing Manager</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact" aria-label="Kontakt">
+            <div class="container">
+                <h2 class="section-title">Kontaktujte nás</h2>
+                <div class="contact-wrapper">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Jméno</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                            <span class="error-message" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <span class="error-message" role="alert"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Zpráva</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            <span class="error-message" role="alert"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">Odeslat zprávu</button>
+                    </form>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>Email</h3>
+                            <p>info@pixelstudio.cz</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Telefon</h3>
+                            <p>+420 123 456 789</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>Adresa</h3>
+                            <p>Václavské náměstí 1<br>110 00 Praha 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">Pixel Studio</span>
+                    <p>&copy; 2024 Pixel Studio. Všechna práva vyhrazena.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">Facebook</a>
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" aria-label="Zavřít lightbox">&times;</button>
+        <img src="" alt="" class="lightbox-image">
+        <div class="lightbox-content">
+            <h3 class="lightbox-title"></h3>
+            <p class="lightbox-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
