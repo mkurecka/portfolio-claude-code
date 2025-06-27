@@ -4,7 +4,7 @@ Testing repo for CLaude Code.
 
 ## Starting prompt for this:
 
-``
+```
 Vytvořte webovou stránku pro kreativní digitální agenturu "Pixel Studio" s následujícími požadavky:
 Designové požadavky:
 
@@ -31,4 +31,4 @@ Technické požadavky:
 Optimalizované pro rychlost načítání
 Přístupnost (ARIA labels, semantic HTML)
 SEO optimalizace
-``
+```
