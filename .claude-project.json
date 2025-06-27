@@ -1,0 +1,8 @@
+{
+  "project_name": "portfolio-claude-code",
+  "repository": "mkurecka/portfolio-claude-code", 
+  "local_path": "/home/claude/projects/portfolio-claude-code",
+  "setup_date": "Fri Jun 27 09:36:11 PM UTC 2025",
+  "cron_schedule": "manual",
+  "cron_expression": "manual"
+}
